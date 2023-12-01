@@ -7,7 +7,7 @@ RUN apt-get install -y chromium-browser
 
 # Copy the start script.
 COPY startapp.sh /startapp.sh
-#RUN chmod +x /startapp.sh
+RUN chmod +x /startapp.sh
 
 # Set the name of the application.
 RUN set-cont-env APP_NAME "xterm"
