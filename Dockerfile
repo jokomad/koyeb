@@ -6,7 +6,7 @@ RUN apt-get update
 RUN apt-get install -y chromium-browser
 
 # Copy the start script.
-#COPY startapp.sh /startapp.sh
+COPY startapp.sh /startapp.sh
 #RUN chmod +x /startapp.sh
 
 # Set the name of the application.
