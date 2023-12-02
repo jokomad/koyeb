@@ -1,2 +1,2 @@
 #!/bin/sh
-exec chromium-browser --no-sandbox --user-data-dir=/1
+exec chromium-browser --no-sandbox --user-data-dir=/2
