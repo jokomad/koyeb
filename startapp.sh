@@ -1,2 +1,2 @@
 #!/bin/sh
-exec chromium-browser --no-sandbox --disable-setuid-sandbox --disable-gpu --disable-dev-shm-usage
+exec chromium-browser --no-sandbox --user-data-dir=/home --disable-site-isolation-trials --enable-low-end-device-mode --renderer-process-limit=2
